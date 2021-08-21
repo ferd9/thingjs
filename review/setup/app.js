@@ -82,7 +82,6 @@ nextBtn.addEventListener('click', function(){
 prevBtn.addEventListener('click', function(){
   if(currentItem > 0){
     currentItem--;
-
   }else{
     currentItem = reviews.length - 1;
   }
